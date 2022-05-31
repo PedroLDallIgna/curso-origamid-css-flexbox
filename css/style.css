@@ -9,6 +9,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 10px;
+    font-weight: bold;
 }
 
 /* Sobre */
@@ -30,6 +31,7 @@ body {
 .sobre-info h2 {
     font-size: 3em;
     margin-bottom: .5em;
+    font-weight: bold;
 }
 
 .sobre-info p {
@@ -53,6 +55,7 @@ body {
 .produtos h2 {
     font-size: 3em;
     margin: 0 10px 60px 10px;
+    font-weight: bold;
 }
 
 .produtos-list {
@@ -288,4 +291,10 @@ body {
     cursor: pointer;
     border: 0px;
     padding: 15px 10px;
+}
+
+@media (max-width: 600px) {
+    .newsletter-form button {
+        font-size: 1.5em;
+    }
 }
