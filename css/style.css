@@ -181,3 +181,49 @@ body {
         order: -1;
     }
 }
+
+/* Qualidade */
+.qualidade {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualidade-item {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.qualidade-item h3 {
+    font-size: 2.25em;
+    color: #A4A4A4;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.qualidade-item h3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.qualidade-item:nth-of-type(3n+1) h3::before {
+    background: #AE81FF;
+}
+
+.qualidade-item:nth-of-type(3n+2) h3::before {
+    background: #F9265E;
+}
+
+.qualidade-item:nth-of-type(3n+3) h3::before {
+    background: #66D9EB;
+}
+
+.qualidade-item p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7C7C7C;
+}
