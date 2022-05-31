@@ -377,3 +377,18 @@ body {
         font-size: 1.5em;
     }
 }
+
+.footer {
+    height: 200px;
+    background: #2C70FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    font-size: 2.25em;
+    color: #122AB2;
+}
